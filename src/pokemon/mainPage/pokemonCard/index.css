@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  display: flex;
+  width: 90%;
+}
+
+.card--content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+
+.card--image {
+  width: 100px;
+  height: 100px;
+}
